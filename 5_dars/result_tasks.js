@@ -129,7 +129,7 @@
 //     digits = String(number)
 //         .split('')
 //         .map(Number);
-// } 
+// }
 // // else {
 // //     digits = number.split(" ").map(Number)
 // // }
@@ -150,12 +150,6 @@
 // console.log(res)
 
 
-
-
-
-
-
-
 // task-12
 // function getDepth(val) {
 //     if (Array.isArray(val)) {
@@ -166,3 +160,42 @@
 // }
 // let result = getDepth([[[[[[[[]]]]]]]])
 // console.log(result);
+
+// 13-task
+
+let a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+let b = []
+let qa =[]
+
+for (let i = a.length - 1; i > -1; i--) {
+    let ner = []
+    for (let j = a[i].length-1; j > -1; j--) {
+        let c = [a[i][j]]
+        ner.push(c)
+    }
+    b.push(ner)
+}
+
+console.log(b)
+
+
+
+
+
+
+
+
+
+// New- Protataype
+// let a = [1, 2, 3, 4, 5];
+// let s = 5;
+
+// Array.prototype.Mypush = function (...tex) {
+//     for (let i = 0; tex.length > i; i++) {
+//         (this[this.length] = tex[i])
+//     }
+// }
+// a.Mypush('olma', 'nok')
+// console.log(a)
+
+
