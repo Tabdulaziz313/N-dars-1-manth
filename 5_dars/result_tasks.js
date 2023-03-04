@@ -62,13 +62,11 @@
 // let a = [1, 5, 9];
 // let b = []
 // let d = 0;
-
 // a.map(el => {
 //     let q = el**3
 //     b.push(q)
 //     d += q
 // })
-
 // console.log(b, d)
 
 
@@ -163,20 +161,19 @@
 
 // 13-task
 
-let a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
-let b = []
-let qa =[]
+// let a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+// let b = []
+// let qa =[]
 
-for (let i = a.length - 1; i > -1; i--) {
-    let ner = []
-    for (let j = a[i].length-1; j > -1; j--) {
-        let c = [a[i][j]]
-        ner.push(c)
-    }
-    b.push(ner)
-}
-
-console.log(b)
+// for (let i = a.length - 1; i > -1; i--) {
+//     let ner = []
+//     for (let j = a[i].length-1; j > -1; j--) {
+//         let c = [a[i][j]]
+//         ner.push(c)
+//     }
+//     b.push(ner)
+// }
+// console.log(b)
 
 
 
